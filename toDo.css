@@ -1,0 +1,117 @@
+/* Rustamov Ixtiyor */
+
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("./res/bg.jpg") bottom right no-repeat;
+  backdrop-filter: blur(5px) contrast(60%);
+}
+
+.konteyner {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 1000px;
+  max-width: 95%;
+}
+/* Forma CSS'si */
+form,
+input {
+  width: 100%;
+}
+
+form {
+  max-width: 100%;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+  padding-bottom: 5px;
+  color: #160cb3;
+}
+
+input {
+  font-size: 1.2rem;
+  outline: none;
+  padding: 2px 0 4px 12px;
+  vertical-align: middle;
+  border-radius: 4px 4px 16px 16px;
+  border-width: 0 0 2px 0;
+}
+
+button {
+  margin-top: 5px;
+  padding: 10px 0;
+  width: 100%;
+  border: transparent;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: rgb(10, 54, 185);
+  border-radius: 16px 16px 4px 4px;
+}
+
+/* Jadval CSS'si */
+table,
+tr,
+td {
+  border: 2px solid rgb(10, 54, 185);
+  border-collapse: collapse;
+  border-radius: 0 0 4px 4px;
+}
+
+table {
+  width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+th {
+  padding: 2px 0 2px 0;
+  text-transform: uppercase;
+}
+td {
+  text-indent: 5px;
+  padding: 3px 10px 3px 0;
+  font-size: 1.2rem;
+  line-break: auto;
+  cursor: pointer;
+}
+
+td span {
+  width: 20px;
+  height: 20px;
+  padding: 0 8px;
+  height: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background: linear-gradient(45deg, #c53364, #fd8263);
+}
+.baza {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.baza p {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  color: #fff;
+}
